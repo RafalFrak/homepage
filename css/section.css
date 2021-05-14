@@ -1,0 +1,41 @@
+.addSection--dark {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, .6);
+  transition: 1s;
+  z-index: 1;
+}
+
+.section {
+  padding: 5px 20px;
+}
+
+.section__header {
+  text-align: center;
+  font-size: 45px;
+  color: #d3e6b4;
+  filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, .8));
+}
+
+.section__subHeader {
+  text-align: center;
+  font-size: 30px;
+  color: #b9d390;
+  filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, .8));
+}
+
+.section__paragraph {
+  padding: 15px;
+  line-height: 1.5;
+  font-size: 23px;
+  background-color: #ccc;
+  border-radius: 15px 0 15px 0;
+  box-shadow: 4px 4px 10px;
+}
+
+.section__paragraph--span {
+  color: rgb(30, 27, 190);
+}

@@ -1,0 +1,19 @@
+.navigation__list {
+  list-style: none;
+}
+
+.navigation__item {
+  margin: 10px 0;
+  padding-left: 0;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #d3e6b4;
+  font-size: 25px;
+  transition: .5s;
+}
+
+.navigation__link:hover {
+  color: #b3bda4;
+}
